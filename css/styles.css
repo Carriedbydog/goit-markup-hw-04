@@ -563,6 +563,11 @@ address {
   color: var(--footer-description);
 }
 
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
 .footer-socials {
   display: flex;
   align-items: baseline;
