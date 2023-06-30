@@ -182,6 +182,7 @@ address {
   |============================
 */
 .main-section {
+  max-width: 1440px;
   height: 600px;
   padding: 188px 0;
   margin: 0 auto;
@@ -192,7 +193,7 @@ address {
     ),
     url('../images/hero-bg.jpg');
   background-repeat: no-repeat;
-  max-width: 1400px;
+
   background-position: center;
   background-size: cover;
 
@@ -467,14 +468,10 @@ address {
   color: var(--headers-description);
 }
 
-.customer-icons {
+.customers-list {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.customers-list {
-  display: flex;
   gap: 24px;
 }
 
@@ -589,6 +586,21 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
+
+.footer-social:hover,
+.footer-social:focus {
+  background-color: #31d0aa;
 }
 
 /**
