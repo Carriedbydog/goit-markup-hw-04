@@ -374,6 +374,7 @@ address {
 .team-menu {
   display: flex;
   text-align: center;
+  justify-content: center;
   gap: 24px;
 }
 .team-item {
@@ -572,10 +573,6 @@ address {
   height: 80px;
 }
 
-.social-list {
-  display: flex;
-  gap: 16px;
-}
 .social-text {
   display: block;
   margin-bottom: 16px;
