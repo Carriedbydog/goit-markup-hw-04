@@ -517,7 +517,6 @@ address {
 .footer-section {
   display: flex;
   align-items: baseline;
-  justify-content: center;
 }
 
 .footer-logo-side {
